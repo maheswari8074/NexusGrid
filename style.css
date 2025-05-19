@@ -20,10 +20,10 @@ body {
 .game {
     display: grid;
    
-     grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(3, 1fr);
     gap: 1vmin;
-     height: 60vmin;
+    height: 60vmin;
     width: 60vmin;
 
 }
@@ -39,9 +39,19 @@ body {
     justify-content: center;
     align-items: center;
     transition: background-color 0.3s;
+    background-color: aliceblue;
 
 
+}
 
 
-    
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:skyblue ;
+    color:white;
+    border-radius: 1rem;
+    border: none;
+
+
 }
