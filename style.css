@@ -3,6 +3,14 @@
     padding: 0;
 
 }
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
 
 body {
     background-color: pink;
@@ -44,6 +52,17 @@ body {
 
 }
 
+.x {
+    color: #ff69b4; 
+    font-weight: bold;
+}
+
+.o {
+    color: #00bfff; 
+    font-weight: bold;
+}
+
+
 
 #reset-btn{
     padding: 1rem;
@@ -55,3 +74,37 @@ body {
 
 
 }
+
+#new-btn{
+     padding: 1rem;
+    font-size: 1.25rem;
+    background-color:skyblue ;
+    color:white;
+    border-radius: 1rem;
+    border: none;
+
+}
+
+#msg{
+    
+    font-size: 5vmin;
+    /* font-weight: bold; */
+    color: #ffffff;
+    
+}
+
+.msg-container{
+     height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+
